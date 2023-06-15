@@ -29,8 +29,8 @@ save_steps = 50
 save_epochs = 50
 
 num_workers = 0
-device_id = '0'
-# device_id = '1,2'
+# device_id = '0'
+device_id = '0,1'
 
 logger = logging.getLogger('train')
 logger.setLevel(logging.INFO)
